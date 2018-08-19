@@ -1,0 +1,23 @@
+﻿/*basic reset*/
+* {margin: 0; padding: 0;}
+/*adding a black bg to the body to make things clearer*/
+body {
+	background: black;
+}
+canvas {
+	display: block;
+}
+.computer {
+	border: 6px solid black;
+	border-radius: 10px;
+	position: fixed;
+	margin-top: 22.5%; 
+	width: 15%;
+	height: 15%;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #0F0;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 5%;
+}
